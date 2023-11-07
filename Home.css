@@ -1,0 +1,173 @@
+body, h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.topnav a.active {
+  background-color: #1DB954;
+}
+
+.main {
+  text-align: center;
+  margin: 20% auto;
+}
+
+.welcome-section {
+  padding: 50px;
+}
+
+h1 {
+  font-size: 2em;
+  color: #1DB954;
+}
+
+p {
+  font-size: 1.2em;
+  color: white; /* Update paragraph color */
+}
+
+.btn-signup, .btn-login {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #1DB954;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-signup:hover, .btn-login:hover {
+  background-color: #1DB954;
+}
+
+@media (max-width: 768px) {
+  .topnav {
+      display: block;
+      text-align: center;
+  }
+  .topnav a {
+      float: none;
+  }
+}
+
+.Welcome-sign {
+  padding-left: 40%;
+  color: #1DB954; /* Change color for Welcome-sign */
+}
+
+.btn-login {
+  margin-left: 40px;
+}
+
+.btn-signup {
+  margin-left: 40%;
+}
+
+.about-container {
+  background-color: #333;
+  padding: 40px;
+  border-radius: 25px;
+  margin: 50px auto;
+  max-width: 800px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.about-container h1 {
+  color: #1DB954; /* Change heading color */
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  color: white; /* Update paragraph color */
+  font-size: 18px;
+}
+
+.playlist-item {
+  display: inline-block;
+  margin: 10px;
+  padding: 50px;
+  background-color: #444; /* Change background color */
+  border: 1px solid #555; /* Update border color */
+  color: #fff; /* Update text color */
+  border-radius: 15px; /* Add some border-radius for a creative touch */
+}
+
+.playlist-item h3 {
+  margin: 5px 0;
+}
+
+.playlist-item img {
+  max-width: 200px;
+  height: auto;
+}
+
+.playlist {
+  margin: 0 auto;
+}
+.copyright {
+  text-align: center;
+  background-color: #1DB954;
+  color: #fff;
+  padding: 10px 5px;
+  font-size: 20px;
+  font-family: 'Arial',sans-serif;
+
+}body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background-color 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #15923D;
+  color: #fff;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+}
